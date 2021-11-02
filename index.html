@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ICONO PESTAÑA -->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <!-- TIPOGRAFÍAS -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <!-- ICONOS -->
+    <script src="https://kit.fontawesome.com/7a6cd02c01.js" crossorigin="anonymous"></script>
+    <!-- ANIMACIONES CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>LIBRANA design</title>
+</head>
+<body>
+    <header class="container portada">
+            <div class="logo animate__slideInLeft">
+                <a href="index.html"><img src="images/Logos2.png" alt="Logo"></a>
+            </div>
+            <div class="container-boton">
+                <a href="#"><img class="boton" src="images/logowhatsapp.png" alt="Whatsapp"></a>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#SobreMi">Sobre Mí</a></li>
+                    <li><a href="#Galeria">Galería</a></li>
+                    <li><a href="tienda.html" target="_blank">Tienda</a></li>
+                    <li><a href="#Contacto">Contacto</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+        <!--SOBRE MI-->
+        <div class="container">
+            <section id="SobreMi">
+                <h1 class="animate__zoomIn">Sobre Mí</h1>
+                <div class="seccion-sobremi">
+                    <div class="fotosobremi">
+                        <img src="images/fotomia.jpg" alt="Foto Naty Llaneza" width="1700" height="3000" class="img-fluid">
+                    </div>
+                    <div class="parrafo-sobremi">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea sint reprehenderit libero vel nam esse totam ut numquam, obcaecati placeat ullam sit distinctio officia nulla quod nihil laboriosam quasi enim, voluptates reiciendis magnam molestiae omnis excepturi. Quaerat, in ea debitis expedita, illo veniam quae fugiat asperiores aperiam explicabo accusantium saepe.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea sint reprehenderit libero vel nam esse totam ut numquam, obcaecati placeat ullam sit distinctio officia nulla quod nihil laboriosam quasi enim, voluptates reiciendis magnam molestiae omnis excepturi. Quaerat, in ea debitis expedita, illo veniam quae fugiat asperiores aperiam explicabo accusantium saepe.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea sint reprehenderit libero vel nam esse totam ut numquam, obcaecati placeat ullam sit distinctio officia nulla quod nihil laboriosam quasi enim, voluptates reiciendis magnam molestiae omnis excepturi. Quaerat, in ea debitis expedita, illo veniam quae fugiat asperiores aperiam explicabo accusantium saepe.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea sint reprehenderit libero vel nam esse totam ut numquam, obcaecati placeat ullam sit distinctio officia nulla quod nihil laboriosam quasi enim, voluptates reiciendis magnam molestiae omnis excepturi. Quaerat, in ea debitis expedita, illo veniam quae fugiat asperiores aperiam explicabo accusantium saepe.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!--GALERÍA-->
+        <div class="container">
+            <section id="Galeria">
+                <h2 class="animate__zoomIn">Galería</h2>
+                <div class="seccion-galeria">
+
+                        <img src="images/galeria1.jpg" alt="Fotomontaje" class="img-fuid">
+                        <img src="images/galeria2.jpg" alt="Fotomontaje publicitario" class="img-fuid">
+                        <img src="images/galeria3.jpg" alt="Fotomontaje con doble exposición" class="img-fuid">
+                        <img src="images/galeria5.jpg" alt="Ilustración digital" class="img-fuid">
+
+                        <img src="images/galeria6.jpg" alt="Pintura digital" class="img-fuid">
+                        <img src="images/galeria4.jpg" alt="Ilustración vectorial" class="img-fuid">
+                        <img src="images/galeria7.jpg" alt="Ilustración vectorial" class="img-fuid">
+                        <img src="images/galeria8.jpg">
+                </div> 
+                <div class="container">
+                    <div class="button-vermas">
+                            <a href="www.blablubli.com" target="_blank">VER MÁS</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!--CONTACTO-->
+        
+            <section id="Contacto">
+                <div class="container">
+                <h2 class="animate__zoomIn">Contacto</h2>
+                <form action="" class="contenedor-contacto">
+
+                    <div class="contenedor-campos">
+                        <label for="">Nombre</label>
+                        <input type="text" id="nombre" required placeholder="Escribi acá*">
+
+                        <label for="">Email</label>
+                        <input type="text" id="email" required placeholder="Escribí acá*">
+
+                        <label for="">Asunto</label>
+                        <input type="text" id="asunto" required placeholder="Escribí acá*">
+
+                    </div>
+
+                    <div class="contenedor-mensaje">
+                        <label for="">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10" required placeholder="Dejame acá tu mensaje*"></textarea>
+                        <p>Todos los campos con <strong>(*)</strong> son obligatorios</p>
+                    </div>
+
+                    <div class="newsletter">
+                        <input type="checkbox" name="aceptar" id="newsletter">
+                        <label for="">Recibir newsletter</label>
+                    </div>
+
+                    <div class="button-formulario">
+                        <input type="submit" value="ENVIAR">
+                        <input type="reset" value="BORRAR">
+                    </div>
+
+                </form>
+            </div>
+            </section>
+        
+    </main>
+
+    <!--FOOTER-->
+    <div class="container">
+        <footer>
+            <h2 class="animate__fadeInDown">Seguime en las redes!</h2>
+            <ul class="redes">
+                <li><a href="https://www.facebook.com/naty.llaneza/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/natyllaneza/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/nataliallaneza/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.behance.net/nataliallaneza" target="_blank"><i class="fab fa-behance-square"></i></a></li>
+            </ul>
+                <p>© Copyright 2021 - Natalia Llaneza</p>
+        </footer>
+    </div>
+</body>
+</html>
