@@ -154,19 +154,19 @@ nav {
 }
 
 .parrafo-sobremi {
-    padding-top: 3rem;
-    /*margin-left: 14rem;
-    margin-right: 30rem;*/
+    padding-top: 2.8rem;
+    margin-right: 3rem;
+    margin-left: 2rem;
 }
 
-.parrafo-sobremi p {
+/*.parrafo-sobremi p {
     padding-bottom: 1rem;
-}
+}*/
 
 .fotosobremi > img {
-    width: 50%;
+    width: 65%;
     height: auto;
-    margin-left: 27rem;
+    margin-left: 10rem;
     padding-top: 3rem;
 }
 
