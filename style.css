@@ -93,19 +93,19 @@ li {
     position: relative;
 }
 
-ul li ul {
+/*ul li ul {
     display: none;
     position: absolute;
 }
 
 ul li ul li {
     display: block;
-}
+}*/
 
-ul li:hover ul {
+/*ul li:hover ul {
     display: block;
     background-color: cadetblue;
-}
+}*/
 
 li a {
     color: white;
@@ -117,24 +117,60 @@ li a:hover {
     color: black;
 }
 
-.logo img{
+/*.logo img{
     width: 8%;
     padding-top: 12px;
     float: left;
     margin-left: 28px;
-}
+}*/
 
 .animate__slideInLeft {
     animation-duration: 1s;
 }
 
-nav {
+/*nav {
     float: right;
     margin-top: 80px;
 }
 
 .submenu ul li {
     display: block;
+}*/
+
+/**************************************/
+
+/* TIENDA */
+
+.tienda {
+    background-color: #e8e9e7;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.card:hover {
+    transition: transform .2s;
+    transform: translateY(-10px);
+}
+
+.btn {
+    background: #06507b;
+    color: white; 
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: .5rem;
+    border-radius: 2rem;
+}
+
+.btn:hover {
+    background-color: #ccdc4d;
+    color: black;
+}
+
+.card-title, .card-text {
+    text-align: center;
 }
 
 
@@ -254,7 +290,6 @@ nav {
     color: #13b4bd;
 }
 
-
 /**************************************/
 
 /* CONTACTO */
@@ -338,8 +373,8 @@ footer .redes {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
-    margin-right: 40%;
-    margin-left: 40%;
+    /*margin-right: 40%;
+    margin-left: 40%;*/
     margin-bottom: 5%;
 }
 
@@ -368,11 +403,11 @@ footer p {
 
 @media only screen and (max-width:768px){
     
-    .container {
+    /*.container {
         width: 720px;
         padding: 0;
         margin: 0 auto;
-    }
+    }*/
 
     .container-boton {
         bottom: 40px;
@@ -380,7 +415,7 @@ footer p {
     }
 
     .boton {
-        width: 85px;
+        width: 60px;
     }
 
     .portada {
@@ -433,11 +468,11 @@ footer p {
 }
 
 @media only screen and (max-width:1024px){
-    .container {
+    /*.container {
         width: 1024px;
         padding: 0;
         margin: 0 auto;
-    }
+    }*/
 
     .portada {
     height: 840px;
@@ -453,11 +488,11 @@ footer p {
 
 @media only screen and (max-width:1200px) {
 
-    .container {
+    /*.container {
         width: 1200px;
         padding: 0;
         margin: 0 auto;
-    }
+    }*/
 
     .seccion-sobremi {
         /*flex-direction: row;*/
@@ -486,8 +521,8 @@ footer p {
     footer .redes {
         margin-top: 5%;
         justify-items: center;
-        margin-right: 40%;
-        margin-left: 35%;
+        /*margin-right: 40%;
+        margin-left: 35%;*/
         margin-bottom: 5%;
     }
     
