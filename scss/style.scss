@@ -71,22 +71,6 @@ h1, h2 {
 
 /**************************************/
 
-/* PORTADA */
-.portada {
-    padding-bottom: $pixeles-70; /*30px*/
-    width: 100%;
-    height: 736px;
-    background-image: linear-gradient(180deg, rgba(4,79,122,1) 0%, rgba(19,180,189,0.7833508403361344) 49%, rgba(232,233,231,0.6208858543417367) 100%), url(../images/portada0.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0 8%;
-    position: relative;
-    background-attachment: fixed;
-}
-
-/**************************************/
-
 /* MENÚ */
 
 ul {
@@ -150,7 +134,7 @@ li a:hover {
 /* TIENDA */
 
 .tienda {
-    background-color: $colorFondo2;
+    background-color: $colorFondo1;
     padding-top: 2rem;
     padding-bottom: 4rem;
 }
@@ -180,39 +164,6 @@ li a:hover {
 
 .card-title, .card-text {
     text-align: center;
-}
-
-
-/**************************************/
-
-/* SOBRE MÍ */
-
-.seccion-sobremi {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 6rem;
-    flex: 50%;
-}
-
-.animate__zoomIn {
-    animation-duration: 2s;
-}
-
-.parrafo-sobremi {
-    padding-top: 2.8rem;
-    margin-right: 3rem;
-    margin-left: 2rem;
-}
-
-/*.parrafo-sobremi p {
-    padding-bottom: 1rem;
-}*/
-
-.section__foto > img {
-    width: 65%;
-    height: auto;
-    margin-left: 10rem;
-    padding-top: 3rem;
 }
 
 /**************************************/
@@ -433,12 +384,6 @@ footer p {
 /* MEDIA QUERY */
 
 @media only screen and (max-width:768px){
-    
-    /*.container {
-        width: 720px;
-        padding: 0;
-        margin: 0 auto;
-    }*/
 
     .container-boton {
         bottom: 40px;
@@ -447,33 +392,6 @@ footer p {
 
     .boton {
         width: 60px;
-    }
-
-    .portada {
-        height: 1117px;
-    }
-
-    .section__sobremi {
-        flex-direction: column;
-        padding-bottom: 6rem;
-        flex: 100%;
-    }
-    
-    .parrafo-sobremi {
-        padding-top: 3rem;
-        margin-left: 2rem;
-        margin-right: 2rem;
-    }
-    
-    .parrafo-sobremi p {
-        padding-bottom: 1rem;
-    }
-    
-    .fotosobremi > img {
-        width: 40%;
-        height: auto;
-        margin-left: 14rem;
-        padding-top: 3rem;
     }
 
     .seccion-galeria {
@@ -498,56 +416,7 @@ footer p {
 
 }
 
-@media only screen and (max-width:1024px){
-    /*.container {
-        width: 1024px;
-        padding: 0;
-        margin: 0 auto;
-    }*/
-
-    .portada {
-    height: 840px;
-    }
-
-    .fotosobremi > img {
-        width: 40%;
-        height: auto;
-        margin-left: 12rem;
-        padding-top: 3rem;
-    }
-}
-
 @media only screen and (max-width:1200px) {
-
-    /*.container {
-        width: 1200px;
-        padding: 0;
-        margin: 0 auto;
-    }*/
-
-    .seccion-sobremi {
-        /*flex-direction: row;*/
-        padding-bottom: 6rem;
-        flex: 50%;
-    }
-    
-    .parrafo-sobremi {
-        padding-top: 3rem;
-        margin-right: 6rem;
-    }
-    
-    .parrafo-sobremi p {
-        padding-bottom: 1rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-    
-    .fotosobremi > img {
-        width: 60%;
-        height: auto;
-        padding-top: 3rem;
-        margin-left: 12rem;
-    }
 
     footer .redes {
         margin-top: 5%;
